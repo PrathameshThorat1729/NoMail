@@ -1,0 +1,76 @@
+.signin-container {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.signin-container .error-box {
+  background-color: #d20000;
+  padding: 15px 40px;
+  width: 380px;
+  text-wrap: wrap;
+  font-family: var(--body-font);
+  color: var(--text-color);
+  font-weight: bold;
+  text-align: center;
+  margin: 25px 0;
+  border-radius: 5px;
+}
+
+.signin-form {
+  position: relative;
+  flex-direction: column;
+  background-color: var(--sec-background-color);
+  padding: 40px;
+  border-radius: 15px;
+  color: var(--text-color);
+  font-size: large;
+  box-shadow: 0 0 10px #000;
+}
+
+.signin-form input {
+  outline: none;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  padding: 15px;
+  width: 300px;
+  transition: 300ms;
+  font-family: var(--heading-font);
+  background: #fff;
+}
+
+.signin-form input[name="confirmPassword"] {
+  margin-top: 0;
+}
+
+.signin-form input.error {
+  border-color: red;
+}
+
+.signin-form input.good {
+  border-color: #14f614;
+}
+
+.signin-form input[type="submit"] {
+  margin-top: 40px;
+  background-color: var(--accent-color);
+  font-family: var(--accent-font);
+  font-size: large;
+}
+
+.signin-form span {
+  font-family: var(--body-font);
+  font-size: small;
+  padding: 10px 0;
+}
+
+.signin-form a {
+  color: blue;
+}
+
+.signin-form .error-msg {
+  font-size: small;
+  margin: 10px;
+  font-family: var(--body-font);
+  color: red;
+}
