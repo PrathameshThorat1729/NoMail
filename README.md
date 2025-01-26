@@ -4,6 +4,10 @@ This is Disposable email WebApp created to have a backup of your temporary email
 
 Note : Create for Spring Camp (PClub - IITK)
 
+<video width="320" height="240" controls>
+  <source src="https://github.com/PrathameshThorat1729/NoMail/raw/refs/heads/main/assets/record.webm" type="video/webm">
+</video>
+
 # Steps
 
 ## Step 1 : Clone Repo
